@@ -160,7 +160,8 @@ const RightContent = () => {
   ]
 
   return (
-    <main ref={containerRef} className="ml-[40%] pt-16 h-screen overflow-y-auto p-8 space-y-6">
+    // On small screens the left panel is hidden so remove left margin
+    <main ref={containerRef} className="ml-0 md:ml-[40%] pt-16 md:h-screen h-auto overflow-y-auto p-4 md:p-8 space-y-6">
       <div className="max-w-4xl">
         <Section id="about" title="About Me">
           <div className="space-y-4">
