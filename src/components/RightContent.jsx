@@ -262,7 +262,7 @@ const RightContent = () => {
               <div className="flex justify-center items-center gap-6 flex-wrap">
                 {/* Email */}
                 <a
-                  href="mailto:vanshverma@example.com"
+                  href="mailto:vansh.verma174@gmail.com"
                   className="group flex flex-col items-center p-4 bg-white/40 backdrop-blur-sm rounded-2xl border border-white/30 hover:bg-white/60 hover:scale-110 transition-all duration-300 shadow-lg hover:shadow-xl"
                   aria-label="Send Email"
                 >
@@ -276,7 +276,7 @@ const RightContent = () => {
 
                 {/* LinkedIn */}
                 <a
-                  href="https://linkedin.com/in/vansh-verma"
+                  href="https://www.linkedin.com/in/vanshverma174/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex flex-col items-center p-4 bg-white/40 backdrop-blur-sm rounded-2xl border border-white/30 hover:bg-white/60 hover:scale-110 transition-all duration-300 shadow-lg hover:shadow-xl"
@@ -308,7 +308,7 @@ const RightContent = () => {
 
                 {/* X */}
                 <a
-                  href="https://x.com/vanshverma17"
+                  href="https://x.com/vansh_verma1704"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex flex-col items-center p-4 bg-white/40 backdrop-blur-sm rounded-2xl border border-white/30 hover:bg-white/60 hover:scale-110 transition-all duration-300 shadow-lg hover:shadow-xl"

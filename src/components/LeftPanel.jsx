@@ -4,6 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 
 
 
@@ -35,6 +36,10 @@ const LeftPanel = () => {
 
           <a href="https://www.linkedin.com/in/vanshverma174/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="p-3 rounded-full bg-white/20 hover:bg-white/30 transition">
             <FaLinkedin className='w-8 h-8'/>
+          </a>
+
+          <a href="https://www.github.com/vanshverma17" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="p-3 rounded-full bg-white/20 hover:bg-white/30 transition">
+            <FaGithub className='w-8 h-8'/>
           </a>
         </div>
       </div>
