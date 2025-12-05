@@ -5,7 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 // project images
 import jokeImg from '../assets/jokeapp.png'
 import blogImg from '../assets/blogapp.jpg'
-import reactImg from '../assets/react.svg'
+import PortfolioImg from '../assets/portfolioimage.png'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -207,24 +207,24 @@ const RightContent = () => {
             description="A fun web application that generates random jokes using an API. Features a clean UI and responsive design."
             tech={["JavaScript", "API Integration", "HTML", "CSS"]}
             image={jokeImg}
-            githubLink="https://github.com/vanshverma17/joke-app"
-            websiteLink="https://joke-app-demo.netlify.app"
+            githubLink="https://github.com/vanshverma17/JokeApp"
+            websiteLink="https://jokeappp.onrender.com/"
           />
           <ProjectCard
             title="Blog App"
             description="A full-stack blog application with user authentication, CRUD operations, and responsive design."
             tech={["React", "Node.js", "MongoDB", "Express"]}
             image={blogImg}
-            githubLink="https://github.com/vanshverma17/blog-app"
-            websiteLink="https://blog-app-demo.netlify.app"
+            githubLink="https://github.com/vanshverma17/BlogApp"
+            websiteLink="https://github.com/vanshverma17/BlogApp"
           />
           <ProjectCard
             title="Portfolio Website"
             description="A modern and responsive portfolio website with dark mode, smooth animations, and a clean UI design."
             tech={["React", "Tailwind CSS", "GSAP", "Vite"]}
-            image={reactImg}
-            githubLink="https://github.com/vanshverma17/portfolio-website"
-            websiteLink="https://vanshverma.dev"
+            image={PortfolioImg}
+            githubLink="https://github.com/vanshverma17/Portfolio-Website-2025"
+            websiteLink="https://vansh-verma-portfolio.netlify.app/"
           />
         </Section>
 
